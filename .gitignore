@@ -4,6 +4,7 @@
 # User-specific files
 *.suo
 *.user
+<<<<<<< HEAD
 *.sln.docstates
 
 # App_Data
@@ -11,6 +12,13 @@
 [Aa]pp[Dd]ata/
 *.mdf
 *.ldf
+=======
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+>>>>>>> df8cbf3f06e1b43721609b812e0c7f60cf26315d
 
 # Build results
 [Dd]ebug/
@@ -24,14 +32,23 @@ bld/
 [Bb]in/
 [Oo]bj/
 
+<<<<<<< HEAD
 # Roslyn cache directories
 *.ide/
+=======
+# Visual Studo 2015 cache/options directory
+.vs/
+>>>>>>> df8cbf3f06e1b43721609b812e0c7f60cf26315d
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
+<<<<<<< HEAD
 #NUNIT
+=======
+# NUNIT
+>>>>>>> df8cbf3f06e1b43721609b812e0c7f60cf26315d
 *.VisualState.xml
 TestResult.xml
 
@@ -142,7 +159,11 @@ publish/
 **/packages/*
 # except build/, which is used as an MSBuild target.
 !**/packages/build/
+<<<<<<< HEAD
 # If using the old MSBuild-Integrated Package Restore, uncomment this:
+=======
+# Uncomment if necessary however generally it will be regenerated when needed
+>>>>>>> df8cbf3f06e1b43721609b812e0c7f60cf26315d
 #!**/packages/repositories.config
 
 # Windows Azure Build Output
@@ -153,8 +174,12 @@ csx/
 AppPackages/
 
 # Others
+<<<<<<< HEAD
 sql/
 *.Cache
+=======
+*.[Cc]ache
+>>>>>>> df8cbf3f06e1b43721609b812e0c7f60cf26315d
 ClientBin/
 [Ss]tyle[Cc]op.*
 ~$*
@@ -164,6 +189,10 @@ ClientBin/
 *.pfx
 *.publishsettings
 node_modules/
+<<<<<<< HEAD
+=======
+bower_components/
+>>>>>>> df8cbf3f06e1b43721609b812e0c7f60cf26315d
 
 # RIA/Silverlight projects
 Generated_Code/
@@ -186,4 +215,17 @@ UpgradeLog*.htm
 *.bim_*.settings
 
 # Microsoft Fakes
+<<<<<<< HEAD
 FakesAssemblies/
+=======
+FakesAssemblies/
+
+# Node.js Tools for Visual Studio
+.ntvs_analysis.dat
+
+# Visual Studio 6 build log
+*.plg
+
+# Visual Studio 6 workspace options file
+*.opt
+>>>>>>> df8cbf3f06e1b43721609b812e0c7f60cf26315d
